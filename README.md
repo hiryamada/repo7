@@ -3,7 +3,7 @@
 
 ## FastAPI Hello World API
 
-このプロジェクトはFastAPIを使用したシンプルなHello World APIです。
+このプロジェクトはFastAPIを使用したシンプルな **Hello World API** です。
 
 ### ディレクトリ構成
 ```
@@ -42,3 +42,46 @@ pytest tests/
 
 - `GET /` - Hello Worldメッセージを返します
   - レスポンス: `{"message": "Hello World"}`
+
+## 箇条書きのテスト
+
+- aaa
+- bbb
+- ccc
+  
+## リンクのテスト
+
+[GitHubのトップページ](https://github.com)
+
+## Mermaidのテスト
+
+```mermaid
+stateDiagram-v2
+  [*] --> Created
+  Created --> Running: Start
+  Running --> Stopped: Stop
+  Stopped --> Running: Start
+  Stopped --> Deleted: Delete
+  Running --> Deleted: Delete
+  Deleted --> [*]
+```
+
+## コードの表現
+
+`README.md` を作る
+
+```python
+def foo()
+  print("foo")
+```
+
+```sh
+x=1
+y=2
+```
+
+```java
+class Animal {
+
+}
+```
