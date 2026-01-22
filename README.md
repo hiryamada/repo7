@@ -1,59 +1,59 @@
 # repo7
-テスト用のリポジトリ
+Test repository
 
 ## FastAPI Hello World API
 
-このプロジェクトはFastAPIを使用したシンプルな **Hello World API** です。
+This project is a simple **Hello World API** using FastAPI.
 
-### ディレクトリ構成
+### Directory Structure
 ```
 .
 ├── src/
 │   ├── __init__.py
-│   └── main.py          # FastAPIアプリケーション
+│   └── main.py          # FastAPI application
 ├── tests/
 │   ├── __init__.py
-│   └── test_main.py     # pytest単体テスト
-└── requirements.txt      # 依存関係
+│   └── test_main.py     # pytest unit tests
+└── requirements.txt      # Dependencies
 ```
 
-### セットアップ
+### Setup
 
-依存関係をインストール:
+Install dependencies:
 ```bash
 pip install -r requirements.txt
 ```
 
-### サーバーの起動
+### Starting the Server
 
 ```bash
 uvicorn src.main:app --reload
 ```
 
-APIは http://localhost:8000 で利用可能になります。
+The API will be available at http://localhost:8000.
 
-### テストの実行
+### Running Tests
 
 ```bash
 pytest tests/
 ```
 
-### APIエンドポイント
+### API Endpoints
 
-- `GET /` - Hello Worldメッセージを返します
-  - レスポンス: `{"message": "Hello World"}`
+- `GET /` - Returns a Hello World message
+  - Response: `{"message": "Hello World"}`
 
-## 箇条書きのテスト
+## Bullet Point Test
 
 - aaa
 - bbb
 - ccc
   
-## リンクのテスト
+## Link Test
 
-[GitHubのトップページ](https://github.com)
+[GitHub Top Page](https://github.com)
 
-## Mermaidのテスト
+## Mermaid Test
 
 ```mermaid
 stateDiagram-v2
@@ -66,9 +66,9 @@ stateDiagram-v2
   Deleted --> [*]
 ```
 
-## コードの表現
+## Code Representation
 
-`README.md` を作る
+Create `README.md`
 
 ```python
 def foo()
